@@ -1,6 +1,6 @@
 ﻿namespace project
 {
-    partial class studentprofile
+    partial class adminprofile
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,21 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(studentprofile));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(adminprofile));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.departmentn = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.username = new System.Windows.Forms.Label();
+            this.departmentn = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
@@ -50,12 +50,21 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(99)))), ((int)(((byte)(255)))));
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Location = new System.Drawing.Point(30, 34);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(170, 170);
+            this.panel1.TabIndex = 0;
             // 
             // pictureBox1
             // 
@@ -67,35 +76,6 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(99)))), ((int)(((byte)(255)))));
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(30, 34);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(170, 170);
-            this.panel1.TabIndex = 1;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.departmentn);
-            this.panel2.Controls.Add(this.username);
-            this.panel2.Location = new System.Drawing.Point(206, 98);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(590, 106);
-            this.panel2.TabIndex = 2;
-            // 
-            // departmentn
-            // 
-            this.departmentn.AutoSize = true;
-            this.departmentn.Font = new System.Drawing.Font("Candara", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.departmentn.ForeColor = System.Drawing.Color.White;
-            this.departmentn.Location = new System.Drawing.Point(28, 59);
-            this.departmentn.Name = "departmentn";
-            this.departmentn.Size = new System.Drawing.Size(196, 29);
-            this.departmentn.TabIndex = 3;
-            this.departmentn.Text = "Computer Science";
-            // 
             // username
             // 
             this.username.AutoSize = true;
@@ -104,31 +84,62 @@
             this.username.Location = new System.Drawing.Point(28, 15);
             this.username.Name = "username";
             this.username.Size = new System.Drawing.Size(188, 29);
-            this.username.TabIndex = 3;
+            this.username.TabIndex = 4;
             this.username.Text = "Mohamed_Zayed";
+            // 
+            // departmentn
+            // 
+            this.departmentn.AutoSize = true;
+            this.departmentn.Font = new System.Drawing.Font("Candara", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.departmentn.ForeColor = System.Drawing.Color.White;
+            this.departmentn.Location = new System.Drawing.Point(28, 62);
+            this.departmentn.Name = "departmentn";
+            this.departmentn.Size = new System.Drawing.Size(196, 29);
+            this.departmentn.TabIndex = 5;
+            this.departmentn.Text = "Computer Science";
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.username);
+            this.panel2.Controls.Add(this.departmentn);
+            this.panel2.Location = new System.Drawing.Point(206, 98);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(588, 106);
+            this.panel2.TabIndex = 6;
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.panel5);
             this.panel3.Controls.Add(this.label7);
             this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.label2);
+            this.panel3.Controls.Add(this.panel5);
             this.panel3.Controls.Add(this.label1);
-            this.panel3.Location = new System.Drawing.Point(30, 236);
+            this.panel3.Location = new System.Drawing.Point(30, 230);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(766, 230);
-            this.panel3.TabIndex = 3;
+            this.panel3.Size = new System.Drawing.Size(764, 237);
+            this.panel3.TabIndex = 7;
             // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(99)))), ((int)(((byte)(255)))));
-            this.panel5.Location = new System.Drawing.Point(30, 50);
+            this.panel5.Location = new System.Drawing.Point(32, 50);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(80, 6);
-            this.panel5.TabIndex = 1;
+            this.panel5.TabIndex = 3;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Candara", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(18, 14);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(103, 35);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Subject";
             // 
             // label7
             // 
@@ -136,11 +147,11 @@
             this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(160)))), ((int)(((byte)(133)))));
             this.label7.Font = new System.Drawing.Font("Candara", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(170, 158);
+            this.label7.Location = new System.Drawing.Point(142, 136);
             this.label7.Name = "label7";
             this.label7.Padding = new System.Windows.Forms.Padding(5);
             this.label7.Size = new System.Drawing.Size(113, 45);
-            this.label7.TabIndex = 0;
+            this.label7.TabIndex = 4;
             this.label7.Text = "Subject";
             // 
             // label6
@@ -149,11 +160,11 @@
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(68)))), ((int)(((byte)(173)))));
             this.label6.Font = new System.Drawing.Font("Candara", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(349, 158);
+            this.label6.Location = new System.Drawing.Point(321, 136);
             this.label6.Name = "label6";
             this.label6.Padding = new System.Windows.Forms.Padding(5);
             this.label6.Size = new System.Drawing.Size(113, 45);
-            this.label6.TabIndex = 0;
+            this.label6.TabIndex = 5;
             this.label6.Text = "Subject";
             // 
             // label5
@@ -162,11 +173,11 @@
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(39)))), ((int)(((byte)(205)))));
             this.label5.Font = new System.Drawing.Font("Candara", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(537, 158);
+            this.label5.Location = new System.Drawing.Point(509, 136);
             this.label5.Name = "label5";
             this.label5.Padding = new System.Windows.Forms.Padding(5);
             this.label5.Size = new System.Drawing.Size(113, 45);
-            this.label5.TabIndex = 0;
+            this.label5.TabIndex = 6;
             this.label5.Text = "Subject";
             // 
             // label4
@@ -175,11 +186,11 @@
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
             this.label4.Font = new System.Drawing.Font("Candara", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(537, 77);
+            this.label4.Location = new System.Drawing.Point(509, 55);
             this.label4.Name = "label4";
             this.label4.Padding = new System.Windows.Forms.Padding(5);
             this.label4.Size = new System.Drawing.Size(113, 45);
-            this.label4.TabIndex = 0;
+            this.label4.TabIndex = 7;
             this.label4.Text = "Subject";
             // 
             // label3
@@ -188,11 +199,11 @@
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(174)))), ((int)(((byte)(96)))));
             this.label3.Font = new System.Drawing.Font("Candara", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(349, 77);
+            this.label3.Location = new System.Drawing.Point(321, 55);
             this.label3.Name = "label3";
             this.label3.Padding = new System.Windows.Forms.Padding(5);
             this.label3.Size = new System.Drawing.Size(113, 45);
-            this.label3.TabIndex = 0;
+            this.label3.TabIndex = 8;
             this.label3.Text = "Subject";
             // 
             // label2
@@ -201,23 +212,12 @@
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
             this.label2.Font = new System.Drawing.Font("Candara", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(170, 77);
+            this.label2.Location = new System.Drawing.Point(142, 55);
             this.label2.Name = "label2";
             this.label2.Padding = new System.Windows.Forms.Padding(5);
             this.label2.Size = new System.Drawing.Size(113, 45);
-            this.label2.TabIndex = 0;
+            this.label2.TabIndex = 9;
             this.label2.Text = "Subject";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Candara", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(16, 14);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 35);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Subject";
             // 
             // panel4
             // 
@@ -227,10 +227,10 @@
             this.panel4.Controls.Add(this.label11);
             this.panel4.Controls.Add(this.label10);
             this.panel4.Controls.Add(this.label9);
-            this.panel4.Location = new System.Drawing.Point(30, 484);
+            this.panel4.Location = new System.Drawing.Point(28, 483);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(766, 215);
-            this.panel4.TabIndex = 3;
+            this.panel4.TabIndex = 8;
             // 
             // panel6
             // 
@@ -303,7 +303,7 @@
             this.label9.TabIndex = 0;
             this.label9.Text = "Mohamed";
             // 
-            // studentprofile
+            // adminprofile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -312,10 +312,10 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Name = "studentprofile";
+            this.Name = "adminprofile";
             this.Size = new System.Drawing.Size(826, 726);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -328,21 +328,21 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label departmentn;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label username;
+        private System.Windows.Forms.Label departmentn;
+        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label12;

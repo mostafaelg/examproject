@@ -19,29 +19,29 @@ namespace project
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            signup1.Hide();
-            bunifuThinButton21.Hide();
-            login1.Show();
-            bunifuThinButton22.Show();
-
-            
+            panel2.BringToFront();
         }
 
-        private void bunifuThinButton22_Click(object sender, EventArgs e)
+        private void bunifuThinButton25_Click(object sender, EventArgs e)
         {
-            login1.Hide();
-            bunifuThinButton22.Hide();
-            signup1.Show();
-            bunifuThinButton21.Show();
-            
-        }
-        private void bunifuThinButton21_Click(object sender, EventArgs e)
-        {
-            signup1.Hide();
-            bunifuThinButton21.Hide();
-            login1.Show();
-            bunifuThinButton22.Show();
+            panel1.BringToFront();
         }
 
+        private void bunifuThinButton23_Click(object sender, EventArgs e)
+        {
+            panel2.BringToFront();
+        }
+
+        private void bunifuThinButton26_Click(object sender, EventArgs e)
+        {
+            if (textBox12.Text == "admin" && textBox14.Text == "admin")
+            {
+                this.Hide();
+                admin adm = new admin();
+                adm.ShowDialog();
+                this.Close();
+                
+            }
+        }
     }
 }

@@ -55,11 +55,11 @@
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(49, 89);
+            this.label1.Location = new System.Drawing.Point(62, 44);
             this.label1.MaximumSize = new System.Drawing.Size(724, 200);
             this.label1.Name = "label1";
-            this.label1.Padding = new System.Windows.Forms.Padding(5);
-            this.label1.Size = new System.Drawing.Size(720, 170);
+            this.label1.Padding = new System.Windows.Forms.Padding(10, 10, 5, 10);
+            this.label1.Size = new System.Drawing.Size(717, 180);
             this.label1.TabIndex = 0;
             this.label1.Text = resources.GetString("label1.Text");
             // 
@@ -73,7 +73,7 @@
             this.radioButton1.Location = new System.Drawing.Point(0, 0);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.radioButton1.Size = new System.Drawing.Size(724, 50);
+            this.radioButton1.Size = new System.Drawing.Size(711, 63);
             this.radioButton1.TabIndex = 1;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "radioButton1";
@@ -83,34 +83,34 @@
             // 
             this.panel1.Controls.Add(this.radioButton1);
             this.panel1.Font = new System.Drawing.Font("Candara", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel1.Location = new System.Drawing.Point(55, 325);
+            this.panel1.Location = new System.Drawing.Point(68, 312);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(724, 50);
+            this.panel1.Size = new System.Drawing.Size(711, 63);
             this.panel1.TabIndex = 2;
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.radioButton2);
             this.panel2.Font = new System.Drawing.Font("Candara", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel2.Location = new System.Drawing.Point(55, 325);
+            this.panel2.Location = new System.Drawing.Point(68, 312);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 5, 3, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(724, 50);
+            this.panel2.Size = new System.Drawing.Size(711, 63);
             this.panel2.TabIndex = 2;
             // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(39)))), ((int)(((byte)(205)))));
+            this.radioButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
             this.radioButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.radioButton2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radioButton2.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton2.ForeColor = System.Drawing.Color.White;
             this.radioButton2.Location = new System.Drawing.Point(0, 0);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.radioButton2.Size = new System.Drawing.Size(724, 50);
+            this.radioButton2.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.radioButton2.Size = new System.Drawing.Size(711, 63);
             this.radioButton2.TabIndex = 1;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Answer One ";
@@ -120,23 +120,23 @@
             // 
             this.panel3.Controls.Add(this.radioButton3);
             this.panel3.Font = new System.Drawing.Font("Candara", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel3.Location = new System.Drawing.Point(55, 401);
+            this.panel3.Location = new System.Drawing.Point(68, 388);
             this.panel3.Margin = new System.Windows.Forms.Padding(3, 5, 3, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(724, 50);
+            this.panel3.Size = new System.Drawing.Size(711, 63);
             this.panel3.TabIndex = 2;
             // 
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(39)))), ((int)(((byte)(205)))));
+            this.radioButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
             this.radioButton3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radioButton3.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton3.ForeColor = System.Drawing.Color.White;
             this.radioButton3.Location = new System.Drawing.Point(0, 0);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.radioButton3.Size = new System.Drawing.Size(724, 50);
+            this.radioButton3.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.radioButton3.Size = new System.Drawing.Size(711, 63);
             this.radioButton3.TabIndex = 1;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Answer Two ";
@@ -146,23 +146,23 @@
             // 
             this.panel4.Controls.Add(this.radioButton4);
             this.panel4.Font = new System.Drawing.Font("Candara", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel4.Location = new System.Drawing.Point(55, 475);
+            this.panel4.Location = new System.Drawing.Point(68, 462);
             this.panel4.Margin = new System.Windows.Forms.Padding(3, 5, 3, 3);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(724, 50);
+            this.panel4.Size = new System.Drawing.Size(711, 63);
             this.panel4.TabIndex = 2;
             // 
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
-            this.radioButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(39)))), ((int)(((byte)(205)))));
+            this.radioButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
             this.radioButton4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radioButton4.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton4.ForeColor = System.Drawing.Color.White;
             this.radioButton4.Location = new System.Drawing.Point(0, 0);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.radioButton4.Size = new System.Drawing.Size(724, 50);
+            this.radioButton4.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.radioButton4.Size = new System.Drawing.Size(711, 63);
             this.radioButton4.TabIndex = 1;
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "Answer Three";
@@ -172,23 +172,23 @@
             // 
             this.panel5.Controls.Add(this.radioButton5);
             this.panel5.Font = new System.Drawing.Font("Candara", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel5.Location = new System.Drawing.Point(55, 549);
+            this.panel5.Location = new System.Drawing.Point(68, 536);
             this.panel5.Margin = new System.Windows.Forms.Padding(3, 5, 3, 3);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(724, 50);
+            this.panel5.Size = new System.Drawing.Size(711, 63);
             this.panel5.TabIndex = 2;
             // 
             // radioButton5
             // 
             this.radioButton5.AutoSize = true;
-            this.radioButton5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(39)))), ((int)(((byte)(205)))));
+            this.radioButton5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
             this.radioButton5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radioButton5.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton5.ForeColor = System.Drawing.Color.White;
             this.radioButton5.Location = new System.Drawing.Point(0, 0);
             this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.radioButton5.Size = new System.Drawing.Size(724, 50);
+            this.radioButton5.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.radioButton5.Size = new System.Drawing.Size(711, 63);
             this.radioButton5.TabIndex = 1;
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "Answer Four";

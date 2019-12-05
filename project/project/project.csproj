@@ -53,11 +53,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="addexam.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="addexam.Designer.cs">
+      <DependentUpon>addexam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addsubject.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="addsubject.Designer.cs">
+      <DependentUpon>addsubject.cs</DependentUpon>
+    </Compile>
     <Compile Include="admin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="admin.Designer.cs">
       <DependentUpon>admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminprofile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminprofile.Designer.cs">
+      <DependentUpon>adminprofile.cs</DependentUpon>
     </Compile>
     <Compile Include="editprofile.cs">
       <SubType>UserControl</SubType>
@@ -82,6 +100,18 @@
     </Compile>
     <Compile Include="login.Designer.cs">
       <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mystudent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="mystudent.Designer.cs">
+      <DependentUpon>mystudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showexams.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="showexams.Designer.cs">
+      <DependentUpon>showexams.cs</DependentUpon>
     </Compile>
     <Compile Include="student.cs">
       <SubType>Form</SubType>
@@ -115,8 +145,17 @@
     <Compile Include="studentsubject.Designer.cs">
       <DependentUpon>studentsubject.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="addexam.resx">
+      <DependentUpon>addexam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addsubject.resx">
+      <DependentUpon>addsubject.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="admin.resx">
       <DependentUpon>admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminprofile.resx">
+      <DependentUpon>adminprofile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="editprofile.resx">
       <DependentUpon>editprofile.cs</DependentUpon>
@@ -129,6 +168,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mystudent.resx">
+      <DependentUpon>mystudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showexams.resx">
+      <DependentUpon>showexams.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="student.resx">
       <DependentUpon>student.cs</DependentUpon>

@@ -18,3 +18,8 @@ C:\Users\mosta\Documents\Visual Studio 2019\project\project\obj\Debug\project.gr
 C:\Users\mosta\Documents\Visual Studio 2019\project\project\obj\Debug\project.studentexams.resources
 C:\Users\mosta\Documents\Visual Studio 2019\project\project\obj\Debug\project.studentsubject.resources
 C:\Users\mosta\Documents\Visual Studio 2019\project\project\obj\Debug\project.editprofile.resources
+C:\Users\mosta\Documents\Visual Studio 2019\project\project\obj\Debug\project.adminprofile.resources
+C:\Users\mosta\Documents\Visual Studio 2019\project\project\obj\Debug\project.mystudent.resources
+C:\Users\mosta\Documents\Visual Studio 2019\project\project\obj\Debug\project.addexam.resources
+C:\Users\mosta\Documents\Visual Studio 2019\project\project\obj\Debug\project.showexams.resources
+C:\Users\mosta\Documents\Visual Studio 2019\project\project\obj\Debug\project.addsubject.resources

@@ -37,11 +37,11 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.editprofile1 = new project.editprofile();
             this.studentsubject1 = new project.studentsubject();
             this.studentexams1 = new project.studentexams();
             this.grade1 = new project.grade();
             this.studentprofile1 = new project.studentprofile();
-            this.editprofile1 = new project.editprofile();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -171,6 +171,14 @@
             this.panel2.Size = new System.Drawing.Size(826, 726);
             this.panel2.TabIndex = 0;
             // 
+            // editprofile1
+            // 
+            this.editprofile1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(59)))), ((int)(((byte)(68)))));
+            this.editprofile1.Location = new System.Drawing.Point(0, 0);
+            this.editprofile1.Name = "editprofile1";
+            this.editprofile1.Size = new System.Drawing.Size(826, 726);
+            this.editprofile1.TabIndex = 4;
+            // 
             // studentsubject1
             // 
             this.studentsubject1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(59)))), ((int)(((byte)(68)))));
@@ -204,14 +212,6 @@
             this.studentprofile1.Size = new System.Drawing.Size(826, 726);
             this.studentprofile1.TabIndex = 0;
             // 
-            // editprofile1
-            // 
-            this.editprofile1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(59)))), ((int)(((byte)(68)))));
-            this.editprofile1.Location = new System.Drawing.Point(0, 0);
-            this.editprofile1.Name = "editprofile1";
-            this.editprofile1.Size = new System.Drawing.Size(826, 726);
-            this.editprofile1.TabIndex = 4;
-            // 
             // student
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -220,6 +220,8 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximumSize = new System.Drawing.Size(1103, 773);
+            this.MinimumSize = new System.Drawing.Size(1103, 773);
             this.Name = "student";
             this.Text = "qestion";
             this.Load += new System.EventHandler(this.student_Load);
